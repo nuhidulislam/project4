@@ -295,10 +295,11 @@ margin-bottom: 50px;
   font-size: 30px;
 }
 .footer-description{
-  width: 400px;
+  /* width: 400px; */
   margin: 20px 0px;
   text-align: justify;
   font-size: 20px;
+  padding-right: 50px;
 }
 
 .icon{
