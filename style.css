@@ -1,0 +1,330 @@
+*{
+  margin: 0px;
+padding: 0px;
+color: black;
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+   
+}
+
+/* Shared styles */
+.text-primary{
+color: #FD6E0A;
+}
+
+.dark-2{
+  color:#474747;
+}
+
+.text-center{
+  align-items: center;
+}
+.btn-primary{
+ background: #FD6E0A ; 
+ font-weight: bold;
+ color: white;
+ padding: 18px 35px;
+ font-size: 20px;
+ border-radius: 10px;
+ border: none;
+ transition: 1s;
+
+}
+
+.btn-primary:hover{
+  transform: scale(1.1);
+  background: rgb(245, 125, 125);
+  color: black;
+}
+
+.secondary-bg{
+  background:#FFEADC;
+}
+
+.body-color{
+  background: #FFF8F3;
+}
+
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+}
+
+.section-description{
+  font-size: 18px;
+  color: #757575;
+}
+
+
+/* header */
+.header{
+  background-image: url(images/developer.png), url(images/header_bg.png) ;
+  background-repeat: no-repeat;
+  background-position:  top left, bottom right;
+  
+
+  
+}
+
+/* nav styles */
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 15px 50px 110px;
+}
+
+.nav-btn{
+ font-weight: bold;
+ font-size: 20px;
+ border: none;
+ transition: 1s;
+}
+
+
+.nav-btn:hover{
+  transform: scale(1.1);
+  background: #FD6E0A ; 
+  padding: 18px 35px;
+  border-radius: 10px;
+  color: white;
+}
+
+.paragraph{
+  text-align: justify;
+  font-size: 18px;
+}
+
+
+
+.nav-tittle{
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+
+
+/* banner styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 50px 110px;
+}
+
+.banner-content{
+  
+ width: 500px;
+ margin-top: 60px;
+}
+
+.banner-greeting{
+  font-size:45px;
+  font-weight: 500;
+}
+
+.banner-title{
+  font-size: 85px;
+  font-weight: bold;
+}
+
+
+.banner-img{
+  width: 480px;
+  height: 500px;
+}
+
+
+.paragraph{
+  margin: 15px 0px;
+font-size: 18px;
+text-align: justify;
+}
+
+
+.btn{
+  margin-right: 30px;
+}
+
+
+
+/* main style */
+main{
+  max-width: 1140px;
+  margin: auto;
+}
+
+
+
+/* about style */
+
+
+.about{
+  padding: 100px 150px;
+border-radius: 20px;
+text-align: justify;
+margin-top: 100px;
+margin-bottom: 60px;
+
+}
+.section-title{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.section-description{
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+
+
+/* skill style section */
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+  padding: 30px;
+  background:#FFEADC;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow:5px 5px 10px #757575 ;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.skill:hover{
+transform: translateY(-30px);
+}
+
+.skill-title{
+  padding: 5px 0px;
+}
+
+.skill-description{
+  text-align: justify;
+}
+
+
+
+/* resume style */
+
+.resume-heading{
+text-align: center;
+margin-bottom: 60px;
+margin-top: 80px;
+font-size: 20px;
+}
+
+.resume-des{
+  font-size: 30px;
+  margin-bottom: 25px;
+
+}
+.resume-container{
+  display: flex;
+  gap: 55px;
+  line-height: 30px;
+}
+
+
+.hr{
+  margin-bottom: 30px;
+}
+
+.btn-cv{
+
+
+
+
+
+display: block;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+/* align-items: center; */
+
+}
+
+
+
+
+/* footer section style */
+
+
+.footer-container{
+  display: flex;
+  padding:130px 150px;
+}
+
+.footer-colum{
+  width: 50%;
+}
+
+.footer-heading{
+  font-size: 30px;
+}
+.footer-description{
+  width: 500px;
+  margin: 20px 0px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  transition: 1.5s;
+}
+
+.icon:hover{
+transform: scale(1.2);
+
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 40px;
+  border-radius: 10px;
+  background: white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+
+}
+
+
+
